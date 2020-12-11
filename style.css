@@ -1,0 +1,86 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+#wrapper {
+  min-height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#header {
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+}
+
+#footer {
+  font-family: arial;
+  font-style: italic;
+  font-size:0.5em;
+  text-align: center;
+}
+
+#quote-box
+{
+  display: flex;
+  flex-direction: column;
+  padding-bottom:0px;
+  width: 450px;
+  background-color: cyan;
+  border-radius: 7px;
+  text-align: center;
+  padding: 10px;
+}
+
+#text {
+  font-size: 1.3em;
+  font-style: regular;
+  font-family: 'Roboto', sans-serif;
+}
+
+.authorbox {
+  font: verdana;
+  font-size: 0.5em;
+  text-align: right;
+}
+
+#author {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.quote-buttons {
+  color: white;
+  border-radius: 4px;
+  background-color: blue;
+  font-size: 14px;
+  padding: 5px;
+}
+
+#left-button {
+  float: left;
+  display: inline;
+  width: 50%;
+  text-align: left;
+}
+
+#right-button {
+  float: right;
+  display: inline;
+  text-align: right;
+}
